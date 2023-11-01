@@ -1,0 +1,71 @@
+EXPERIMENT NO : 7
+
+AIM : To perform remote login using telnet server
+Telnet is a protocol that allows you to connect to remote computers (called hosts) over a TCP/IP
+network (such as the internet). Using telnet client software on your computer, you can make a
+connection to a telnet server (that is, the remote host). Once your telnet client establishes a
+connection to the remote host, your client becomes a virtual terminal, allowing you to communicate
+with the remote host from your computer. In most cases, you'll need to log into the remote host,
+which requires that you have an account on that system. Occasionally, you can log in as guest or
+public without having an account.
+Telnet clients are available for all major operating systems.
+Command-line telnet clients are built into most versions of macOS, Windows, Unix, and Linux. To
+use these clients, go to their respective command lines (that is, the Terminal application in macOS,
+the shell in Unix or Linux, or the DOS prompt in Windows), and then enter:
+telnet host port
+Replace host with the address of the service, and port with the port number on which the service
+runs (for example, 80 for http).
+What is Telnet?
+Telnet, developed in 1969, is a protocol that provides a command line interface for communication
+with a remote device or server, sometimes employed for remote management but also for initial
+device setup like network hardware. Telnet stands for Teletype Network, but it can also be used as a
+verb; 'to telnet' is to establish a connection using the Telnet protocol.
+Is Telnet secure?
+Because it was developed before the mainstream adaptation of the internet, Telnet on its own does
+not employ any form of encryption, making it outdated in terms of modern security. It has largely
+been overlapped by Secure Shell (SSH) protocol, at least on the public internet.
+How does Telnet work?
+Telnet provides users with a bidirectional interactive text-oriented communication system utilizing a
+virtual terminal connection over 8 byte. User data is interspersed in-band with telnet control
+information over the transmission control protocol (TCP). Often, Telnet was used on a terminal to
+execute functions remotely.
+The user connects to the server by using the Telnet protocol, which means entering Telnet into a
+command prompt by following this syntax: telnet hostname port. The user then executes commands
+on the server by using specific Telnet commands into the Telnet prompt. To end a session and log
+off, the user ends a Telnet command with Telnet.
+
+What are common uses for Telnet?
+Telnet can be used to test or troubleshoot remote web or mail servers, as well as for remote access
+to trusted internal networks.
+When does telnet not connect ?
+1) a network or host firewall is dropping incoming connections
+2) the remote machine is down
+3) network connectivity between the client and server is unavailable for some reason.
+In this case, further troubleshooting is required, such as verifying with a traceroute from the client
+side where the connection is interrupted or getting in touch with the administrator of the remote host
+to ask whether the remote service is running and allowed by any firewall in between
+
+SSH
+The program SSH (Secure Shell) provides an encrypted channel for logging into another computer
+over a network, executing commands on a remote computer, and moving files from one computer to
+another. SSH provides strong host-to-host and user authentication as well as secure encrypted
+communications over the internet.
+
+Secure Shell capabilities
+Functions that SSH enables include:
+• Secure remote access to SSH-enabled network systems or devices, for users as well as
+automated processes;
+• secure and interactive file transfer sessions;
+• automated and secured file transfers;
+• secure issuance of commands on remote devices or systems; and
+• secure management of network infrastructure components.
+
+STEPS :
+
+1) Open terminal and type telnet hostname -- ( ip address of the computer to which
+you wish to connect)
+2) Enter the username and the password .
+3)After authentication you will login to the remote computer
+4)After this login you can browse the remote computer from your command line.
+You can perform certain operations like viewing / creating /deleting the files and
+folders of the remote computer, setting file access permissions, etc.
