@@ -141,3 +141,74 @@ System.out.println(data[i]);
 
 }
 }
+/*
+cd "/home/aiktc//CN/" && javac crc.java && java crc
+aiktc@CO-LAB01-20:~$ cd "/home/aiktc//CN/" && javac crc.java && java crc
+Enter the size of the data
+8
+Enter the size of the key
+4
+Enter the data::
+1
+1
+1
+0
+0
+1
+1
+0
+Enter the Key::
+1
+0
+0
+1
+Data after appending 0
+11100110000
+First Remainder
+0111
+
+Shifted Remainder is as follows::
+1110
+
+Remainder after XORing
+0111
+Shifted Remainder is as follows::
+1111
+
+Remainder after XORing
+0110
+Shifted Remainder is as follows::
+1101
+
+Remainder after XORing
+0100
+Shifted Remainder is as follows::
+1000
+
+Remainder after XORing
+0001
+Shifted Remainder is as follows::
+0010
+
+
+Shifted Remainder is as follows::
+0100
+
+
+Shifted Remainder is as follows::
+1000
+
+Remainder after XORing
+0001The message to be sent is ::
+1
+1
+1
+0
+0
+1
+1
+0
+0
+0
+1
+*/
