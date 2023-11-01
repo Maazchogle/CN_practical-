@@ -1,0 +1,112 @@
+EXPERIMENT 2
+AIM:
+Use basic networking commands in Linux (ping, traceroute, nslookup, netstat, ARP, RARP, ip, ifconfig, dig, route)
+
+THEORY:
+
+Networking commands
+Every computer is connected to some other computer through a network whether internally or externally to exchange some information. This network can be small as some computers connected in your home or office, or can be large or complicated as in large University or the entire Internet.
+
+Command	Description
+ping	To check connectivity between two nodes.
+traceroute	Network troubleshooting utility.
+nslookup	Find DNS related query.
+netstat	Display connection information.
+arp	View or add contents of the kernel's ARP table.
+rarp	To convert ethernet addresses to IP addresses.
+ip	It is a replacement of ifconfig command.
+ifconfig	Display and manipulate route and network interfaces.
+dig	Query DNS related information.
+route	Shows and manipulate IP routing table.
+ 
+Ping
+Linux ping command stands for (Packet Internet Groper). It checks connectivity between two nodes to see if a server is available. It sends ICMP ECHO_REQUEST packets to network hosts and displays the data on the remote server's response. It checks if a remote host is up, or that network interfaces can be reached.
+Further, it is used to check if a network connection is available between two devices. It is also handy tool for checking your network connection and verifying network issues.
+
+
+Traceroute
+Linux traceroute command is a network troubleshooting utility that helps us determine the number of hops and packets traveling path required to reach a destination. It is used to display how the data transmitted from a local machine to a remote machine. Loading a web page is one of the common examples of the traceroute. A web page loading transfers data through a network and routers. The traceroute can display the routes, IP addresses, and hostnames of routers over a network. It can be useful for diagnosing network issues.
+
+
+Nslookup
+This command is also used to find DNS related query.
+
+
+Netstat
+Linux netstat command stands for Network statistics. It displays information about different interface statistics, including open sockets, routing tables, and connection information. Further, it can be used to displays all the socket connections (including TCP, UDP). Apart from connected sockets, it also displays the sockets that are pending for connections. It is a handy tool for network and system administrators.
+ 
+Arp
+The command arp stands for Address Resolution Protocol. It allows us to view or add content into kernel's ARP table.
+
+
+Rarp
+RARP provides the opposite service to ARP in that it is used when only the ethernet address is known and the IP address is needed.
+
+
+Ip
+Linux IP command is the newer version of the ifconfig command. It is a handy tool for configuring the network interfaces for Linux administrators. It can be used to assign and remove addresses, take the interfaces up or down, and much more useful tasks.
+
+
+Ifconfig
+The command ifconfig stands for interface configurator. This command enables us to initialize an interface, assign IP address, enable or disable an interface. It displays route and network interface.
+
+Dig
+Linux dig command stands for Domain Information Groper. This command is used for tasks related to DNS lookup to query DNS name servers. It mainly deals with troubleshooting DNS related problems. It is a flexible utility for examining the DNS (Domain Name Servers). It is used to perform the DNS lookups and returns the queried answers from the name server. Usually, it is used by most DNS administrators to troubleshoot the DNS problems. It is a straightforward tool and provides a clear output. It is more functional than other lookups tools.
+ 
+Route
+The route command displays and manipulate IP routing table for your system.
+
+
+SYNTAX
+1.	Ping: ping <domain name>
+2.	Traceroute: traceroute <domain name>
+3.	Nslookup: nslookup <domain name>
+4.	Netstat: netstat -a
+5.	Arp: arp -a
+6.	Rarp: rarp -a
+7.	Ip: ip -a
+8.	Ifconfig: ifconfig -a
+9.	Dig: dig <domain name>
+10.	Route: route
+
+
+APPLICATION
+1.	Ping
+
+ 
+2.	Traceroute
+
+
+3.	Nslookup
+
+ 
+4.	Netstat
+
+
+
+ 
+ 
+
+
+5.	Arp
+
+ 
+6.	Rarp
+
+
+7.	Ip
+
+ 
+8.	Ifconfig
+
+
+9.	Dig
+
+ 
+10.	Route
+
+
+
+
+CONCLUSION
+Thus, we have studied the basic networking commands of Linux and successfully implemented it.
